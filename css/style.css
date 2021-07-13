@@ -211,9 +211,15 @@ header{
         overflow-x: scroll;
         padding-left: 20px;
         padding-right: 20px;
+        padding-bottom: 10px;
     }
     .blog{
         flex-direction: column;
+        box-shadow: 1px 1px 10px rgba(202, 201, 201, 0.418);
+        border-radius: 10px;
+    }
+    .blog-info{
+        margin-left: 0px;
     }
     #navbar{
         flex-direction: column;
@@ -256,6 +262,13 @@ header{
     h3{
         padding-left: 20px;
     }
+    .blog-title{
+        padding-left: 0px;
+        margin-left: 0px;
+    }
+    .blog-info{
+        margin-left: 0px;
+    }
     .players{
         grid-template-columns: repeat(2, 1fr);
         padding: 20px;
@@ -264,9 +277,18 @@ header{
         grid-template-columns: repeat(2, 1fr);
         padding: 10px;
     }
+    .course-title{
+        padding-left: 0%;
+    }
     .players .player img{
         width: 40%;
         height: auto;
+    }
+    .player{
+        border-radius: 20px;
+        padding: 10px;
+        box-shadow: 1px 1px 10px rgba(128, 128, 128, 0.315);
+        margin-right: 30px;
     }
     .blogs{
         grid-template-columns: repeat(1, 1fr);
@@ -278,6 +300,9 @@ header{
     }
     .blog{
         flex-direction: column;
+        box-shadow: 1px 1px 10px rgba(202, 201, 201, 0.418);
+        border-radius: 10px;
+        margin-bottom: 10px;
     }
     .course{
         flex-direction: column;
